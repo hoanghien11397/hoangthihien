@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html>
+  <body>
+        <h1>đăng kí thành viên</h1>
+
+       tên <input id="id1" type="ten"><br></br>
+       họ <input id="id2" type="ho"><br></br>
+     
+       giới tính <input type="radio" value="Nam" name="gender" /> Nam 
+       <input type="radio" value="Nữ" name="gender" /> Nữ <br/></br>  
+
+                
+       nghề nghiệp <select name="nghenghiep"> <option value="sinhvien"> sinh viên</option></br> </br>       
+        <option value="laptrinhvien"> lập trình viên</option></br></br>  
+       <option value="giaovien"> giáo viên</option></br></br>  
+    </select></br></br>  
+    <button onclick="taotaikhoan()">tạo tài khoản</button></br>  </br>  
+
+ <script>
+          var ten, ho, gioitinh, nghenghiep;
+            function taotaikhoan()
+            {
+            if (taotaikhoan.ten.value == ""& taotaikhoan.ten.value == "")
+        
+            alert ("bạn chưa nhập tên"); return;}
+            
+           if (taotaikhoan.ho.value == "")
+            {alert("bạn chưa nhập họ"); return;}
+alert(" đăng kí thành công");
+
+
+            </script>
+</body>
+</html>
